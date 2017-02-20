@@ -1,0 +1,25 @@
+{
+  "name": "meanapp",
+  "version": "1.0.0",
+  "description": "loginApp with nodeJS & Angular2",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pranalipatil209@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "events": "^1.1.1",
+    "express": "^4.14.0",
+    "firebase": "^3.6.6",
+    "http": "0.0.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.7.2",
+    "mongoose-auto-increment": "^5.0.1",
+    "morgan": "^1.7.0",
+    "util": "^0.10.3"
+  }
+}
