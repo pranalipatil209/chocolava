@@ -17,6 +17,7 @@ Router.get('/',function(req,res){
  */
 Router.use('/api',require('./signup'));
 Router.use('/api',require('./login'));
+Router.use('/borrow',require('./foodfood'));
 
 /**
  * @exports Router
